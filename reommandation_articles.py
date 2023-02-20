@@ -18,7 +18,7 @@ import  json
 st.write("""
 # application de recommandation d'articles'
 """)
-id_users = pd.read_csv('https://github.com/lz60/recommandation/blob/main/id.csv')
+id_users = pd.read_csv('/app/recommandation/id.csv')
 
 st.write("""
 # application de recommandation d'articles'
