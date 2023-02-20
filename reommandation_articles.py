@@ -18,10 +18,21 @@ import  json
 st.write("""
 # application de recommandation d'articles'
 """)
+id_users = pd.read_csv('/Users/zemrak/Desktop/projet_9/id.csv')
 
+st.write("""
+# application de recommandation d'articles'
+""")
+liste_id=id_users.user_id.tolist()
 	
-id = st.slider("Choisir un id  UTILISATEUR: ", 0,900)
+#id = st.slider("Choisir un id  UTILISATEUR: ", 0,900)
 #id=0
+print(liste_id)
+id = st.selectbox(
+    "choisisez un id  dans la liste  ci-dessous:  ",
+     ( liste_id))
+	
+
 
 
   
