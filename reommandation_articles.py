@@ -18,14 +18,14 @@ import  json
 st.write("""
 # application de recommandation d'articles'
 """)
-#id_users = pd.read_csv('/app/recommandation/id.csv')
-#liste_id=id_users.user_id.tolist()
+id_users = pd.read_csv('/app/recommandation/id.csv')
+liste_id=id_users.user_id.tolist()
 	
-id = st.slider("Choisir un id  UTILISATEUR: ", 0,900)
+#id = st.slider("Choisir un id  UTILISATEUR: ", 0,900)
 #id=0
-#id = st.selectbox(
-#   "choisisez un id  dans la liste  ci-dessous:  ",
-#     ( liste_id))
+id = st.selectbox(
+   "choisisez un id  dans la liste  ci-dessous:  ",
+     ( liste_id))
 	
 
 
