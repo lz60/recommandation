@@ -16,7 +16,7 @@ import  json
 
 
 st.write("""
-# application de recommandation d'articles'
+# Application de recommandation d'articles'
 """)
 id_users = pd.read_csv('/app/recommandation/id.csv')
 liste_id=id_users.user_id.tolist()
