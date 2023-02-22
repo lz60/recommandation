@@ -9,7 +9,7 @@ Created on Wed Feb  8 21:10:28 2023
 
 import streamlit as st
 import pandas as pd
-
+import  random
 import requests
 import numpy as np
 import  json
